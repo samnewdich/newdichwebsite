@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newdich.Website - Learn. Grow. Succeed.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      border-bottom: 1px solid #ddd;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #1e3c72;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .featured {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    .featured h2 {
+      margin-bottom: 1rem;
+      color: #1e3c72;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .post {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .post:hover {
+      transform: translateY(-5px);
+    }
+
+    .post h3 {
+      color: #2a5298;
+      margin-bottom: 0.5rem;
+    }
+
+    .post p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e3c72;
+      color: white;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        gap: 1rem;
+      }
+    }
+
+    .unstylehref{
+        text-decoration: none;
+        cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Newdich.Website</h1>
+    <p>Your daily dose of educational insights and resources</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Topics</a>
+    <a href="#">Tutorials</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section class="featured">
+      <h2>Featured Post</h2>
+      <p><strong>How to Stay Motivated While Studying Online</strong> — Discover effective strategies to keep your learning on track and stay productive even when you're studying remotely.</p>
+    </section>
+
+    <section class="grid">
+      <div class="post">
+        <a class="unstylehref" href="5-Study-Techniques-Backed-by-Science.html">
+        <h3>5 Study Techniques Backed by Science</h3>
+        <p>Learn how to apply scientifically proven methods like spaced repetition, active recall, and more to improve your academic performance.</p>
+       </a>
+    </div>
+
+      <div class="post">
+        <a class="unstylehref" href="Top-10-Free-Online-Courses-in-2025.html">
+        <h3>Top 10 Free Online Courses in 2025</h3>
+        <p>Check out a curated list of the best online courses you can take right now to upgrade your skills and career prospects.</p>
+        </a>
+      </div>
+
+      <div class="post">
+        <a class="unstylehref" href="Time-Management-Tips-for-Students.html">
+        <h3>Time Management Tips for Students</h3>
+        <p>Master the art of managing your time effectively, balancing studies with personal life, and avoiding burnout.</p>
+        </a>
+      </div>
+
+      <div class="post">
+        <a class="unstylehref" href="Best-Educational-YouTube-Channels.html">
+        <h3>Best Educational YouTube Channels</h3>
+        <p>Discover some of the most informative and engaging YouTube channels for learners in all fields.</p>
+        </a>
+      </div>
+
+      <div class="post">
+        <a class="unstylehref" href="Choosing-the-Right-Learning-Style.html">
+        <h3>Choosing the Right Learning Style</h3>
+        <p>Understand your personal learning style and how to tailor your study habits for maximum effectiveness.</p>
+        </a>
+      </div>
+
+      <div class="post">
+        <a class="unstylehref" href="How-to-Write-a-Winning-Scholarship-Essay.html">
+        <h3>How to Write a Winning Scholarship Essay</h3>
+        <p>Get tips and tricks on crafting a compelling essay that stands out and gets you the financial aid you deserve.</p>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Newdich.Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // You can enhance with interactivity here if needed
+    console.log("Newdich.Website is ready");
+  </script>
+</body>
+
+</html>
