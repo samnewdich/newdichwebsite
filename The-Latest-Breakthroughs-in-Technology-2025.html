@@ -187,22 +187,27 @@ Edge AI — deploying AI models directly on devices — is becoming standard in 
   </footer>
 
 
-	<script>
-		setTimeout(()=>{
-			document.getElementById("addra").innerHTML =`
-				<script type="text/javascript">
-				  atOptions = {
-					'key' : '4585dcc69ee60245adc8a75fc5cef4ed',
-					'format' : 'iframe',
-					'height' : 90,
-					'width' : 728,
-					'params' : {}
-				  };
-				</script>
-				<script type="text/javascript" src="//www.highperformanceformat.com/4585dcc69ee60245adc8a75fc5cef4ed/invoke.js"></script>
-			`;
-		}, 3000);
-	</script>
+<script>
+  setTimeout(() => {
+    // Set the ad options
+    window.atOptions = {
+      'key': '4585dcc69ee60245adc8a75fc5cef4ed',
+      'format': 'iframe',
+      'height': 90,
+      'width': 728,
+      'params': {}
+    };
+
+    // Create the external ad script
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '//www.highperformanceformat.com/4585dcc69ee60245adc8a75fc5cef4ed/invoke.js';
+
+    // Append to the target div
+    document.getElementById("addra").appendChild(script);
+  }, 3000);
+</script>
+
   <script>
     console.log("Newdich.website is ready");
   </script>
